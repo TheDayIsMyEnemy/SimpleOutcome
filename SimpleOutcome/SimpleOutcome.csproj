@@ -15,7 +15,12 @@
     <PackageProjectUrl>https://github.com/TheDayIsMyEnemy/SimpleOutcome</PackageProjectUrl>
     <RepositoryUrl>https://github.com/TheDayIsMyEnemy/SimpleOutcome.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
     <!-- <GeneratePackageOnBuild>true</GeneratePackageOnBuild> -->
   </PropertyGroup>
+
+     <ItemGroup>
+        <None Include="..\readme.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
 
 </Project>
